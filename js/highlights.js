@@ -21,7 +21,7 @@ AFRAME.registerComponent("cursor-listener", {
             selectedItemId: id,
           });
           console.log("if condition")
-          this.el.setAttribute("material", { color: "#1565c0" });
+          this.el.setAttribute("material", { color: "red" });
         }
       });
     },
