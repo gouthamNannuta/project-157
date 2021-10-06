@@ -55,6 +55,7 @@ AFRAME.registerComponent("comics-posters", {
   
       entityEl.setAttribute("position", position);
       entityEl.setAttribute("material", { color: "white" });
+      entityEl.setAttribute("cursor-listener",{})
   
       return entityEl;
     },
